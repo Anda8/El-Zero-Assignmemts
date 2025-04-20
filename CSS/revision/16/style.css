@@ -1,0 +1,50 @@
+body {
+  background-color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  --borderSize: 10px;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  & div {
+    margin: 10px auto;
+    background-color: #fff;
+    width: 70%;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: calc((var(--borderSize) * 8) + 10px);
+    text-align: center;
+    box-shadow: inset var(--borderSize) var(--borderSize) 0px 0px #009688,
+      inset calc(var(--borderSize) * -1) calc(var(--borderSize) * -1) 0px
+        0px#009688,
+      inset calc(var(--borderSize) * 2) calc(var(--borderSize) * 2) 0px
+        0px#ffc107,
+      inset calc(var(--borderSize) * -2) calc(var(--borderSize) * -2) 0px
+        0px#ffc107,
+      inset calc(var(--borderSize) * 3) calc(var(--borderSize) * 3) 0px
+        0px#795548,
+      inset calc(var(--borderSize) * -3) calc(var(--borderSize) * -3) 0px
+        0px#795548,
+      inset calc(var(--borderSize) * 4) calc(var(--borderSize) * 4) 0px
+        0px#3f51b5,
+      inset calc(var(--borderSize) * -4) calc(var(--borderSize) * -4) 0px
+        0px#3f51b5,
+      inset calc(var(--borderSize) * 5) calc(var(--borderSize) * 5) 0px
+        0px#4caf50,
+      inset calc(var(--borderSize) * -5) calc(var(--borderSize) * -5) 0px
+        0px#4caf50,
+      inset calc(var(--borderSize) * 6) calc(var(--borderSize) * 6) 0px
+        0px#9c27b0,
+      inset calc(var(--borderSize) * -6) calc(var(--borderSize) * -6) 0px
+        0px#9c27b0,
+      inset calc(var(--borderSize) * 7) calc(var(--borderSize) * 7) 0px
+        0px#e91e63,
+      inset calc(var(--borderSize) * -7) calc(var(--borderSize) * -7) 0px
+        0px#e91e63,
+      inset calc(var(--borderSize) * 8) calc(var(--borderSize) * 8) 0px
+        0px#cddc39,
+      inset calc(var(--borderSize) * -8) calc(var(--borderSize) * -8) 0px
+        0px#cddc39;
+  }
+}

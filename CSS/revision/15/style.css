@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+  & ul {
+    width: 80%;
+    min-width: 330px;
+    padding: 0px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    margin: 15px auto;
+    counter-reset: count 10; 
+    & li { 
+      background-color: #fff;
+      margin-bottom: 1px;
+      padding: 2rem;
+      border-bottom: 1px solid #e2e2e2;
+      list-style: none;
+      position: relative;
+      &::before {
+        content: "(" counter(count, decimal) ")";           
+        counter-increment: count 3;
+          position: absolute;
+        width: 2em;
+        height: 2em;
+        right: 1em;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        color: white;
+        text-align: center;
+        padding: 0.5em;
+        line-height: 2em;
+        font-weight: 600;
+        /* display: inline-block; */
+      }
+      &:nth-child(odd)::before {
+        background-color: #9c27b0;
+      }
+      &:nth-child(even)::before {
+        background-color: #f44336;
+      }
+    }
+  }
+}

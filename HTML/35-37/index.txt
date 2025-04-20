@@ -1,0 +1,58 @@
+ <!-- Assignment_01 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment_01</title>
+  </head>
+  <body>
+    <!--  Q1  -->
+    <!-- <form>
+      <input type="submit" value="Send">
+    </form> -->
+
+    <!--  Q2  -->
+    <!-- <h1>This is a biggest heading in the page</h1> -->
+
+    <!--  Q3  -->
+    <!-- <h2>Sub heading inside a section</h2> -->
+
+    <!--  Q4  -->
+    <!-- <p>This is a paragraph</p> -->
+
+    <!--  Q5  -->
+    <!-- <html lang="en"></html> -->
+
+    <!--  Q6 -->
+    <!-- 10 To 20 -->
+
+    <!--  Q6  -->
+    <!--
+     <label id="L">My Checkbox</label>
+<div role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="L">
+    This is Checkbox border
+</div>
+     -->
+
+    <!-- Q7 -->
+    <!-- Aria ==> Accessible Rich Internet Applications -->
+  </body>
+</html>
+ <!-- Assignment_02 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment_02</title>
+  </head>
+  <body>
+    <div class="choose-skill">
+      <div class="skill" aria-labelledby="Skill-one" role="checkbox" aria-checked="true" tabindex="0">Python</div>
+      <label id="skill-one">Python</label>
+      <div class="skill" aria-labelledby="skill-two" role="checkbox" aria-checked="false" tabindex="0">PHP</div>
+      <label id="skill-two">PHP</label>
+      <div class="skill" aria-labelledby="Skill-three" role="checkbox" aria-checked="false" tabindex="0">JavaScript</div>
+      <label id="skill-three">JavaScript</label>
+    </div>
+  </body>
+</html>

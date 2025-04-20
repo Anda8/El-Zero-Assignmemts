@@ -1,0 +1,62 @@
+body{
+  margin: 10px auto;
+  width: 90%;
+  & > ul {
+    background-color: #eee;
+    padding: 5px;
+    & > li {
+      background-color: #fff;
+      margin: 5px;
+      list-style: none;
+      counter-increment: number;
+      position: relative;
+      padding: 10px;
+      text-indent: 30px;
+      &::before {
+        content: counter(number);
+        text-indent: initial;
+        background-color: #ddd;
+        font-weight: bold;
+        padding: 5px 10px;
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+      }
+    }
+  }
+  & li:nth-child(4) {
+    background-color: #ddd;
+    &::before {
+      top: 20px;
+      left: 5px;
+      background-color: #fff;
+    }
+
+    & ul {
+      margin-top: 10px;
+      background-color: #ddd;
+      padding: 0px;
+      & li {
+        background-color: #fff;
+        margin: 5px;
+        list-style: none;
+        counter-increment: two;
+        position: relative;
+        padding: 10px;
+        text-indent: 35px;
+        &::before {
+          content: "4." counter(two);
+          text-indent: initial;
+          background-color: #009688;
+          font-weight: bold;
+          padding: 5px;
+          position: absolute;
+          top: 50%;
+          left: 5px;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+}

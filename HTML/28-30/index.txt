@@ -1,0 +1,265 @@
+ <!-- Assignment_01 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment_01</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <!-- 1st Field -->
+      <div>
+        <!-- <label>Token</label> -->
+        <input
+          type="hidden"
+          name="token"
+          value="b92f1fc2fce391ad7af633723afd3055"
+        />
+      </div>
+      <br />
+      <!-- 2nd Field -->
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" value="o@o.com" name="Email" readonly />
+      </div>
+      <br />
+      <!-- 3rd Field -->
+      <div>
+        <label for="user">Username</label>
+        <input
+          id="user"
+          type="text"
+          name="user"
+          autofocus
+          required
+          minlength="5"
+          maxlength="20"
+        />
+      </div>
+      <!--
+        Empty Form Button
+        Send Form Button
+      -->
+      <br />
+      <input type="reset" value="Empty" />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
+
+
+ <!-- Assignment_02 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment_02</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <!-- 1st Field -->
+      <div>
+        <input
+          type="text"
+          name="token"
+          value="b92f1fc2fce391ad7af633723afd3055"
+          hidden
+        />
+      </div>
+      <br />
+      <!-- 2nd Field -->
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" value="o@o.com" name="Email" readonly />
+      </div>
+      <br />
+      <!-- 3rd Field -->
+      <div>
+        <label for="user">Username</label>
+        <input
+          id="user"
+          type="text"
+          name="user"
+          autofocus
+          required
+          minlength="5"
+          maxlength="20"
+        />
+      </div>
+      <br />
+      <!-- CheckBox -->
+      <div>
+        <label>Skills</label>
+
+        <input id="solve" type="checkbox" value="CP" name="skill" checked />
+        <label for="solve">Problem solving</label>
+
+        <input id="Logic" type="checkbox" value="LT" name="skill" />
+        <label for="Logic">Logical Thinking</label>
+
+        <input id="search" type="checkbox" value="search" name="skill" />
+        <label for="search">Advanced Search</label>
+
+        <input id="analysis" type="checkbox" value="analysis" name="skill" />
+        <label for="analysis">Analysis</label>
+
+        <input id="plan" type="checkbox" value="planning" name="skill" />
+        <label for="plan">Planning</label>
+      </div>
+      <br />
+      <!-- Radio-Button -->
+      <div>
+        <label>Job</label>
+
+        <input id="Front-end" type="radio" value="Front-End" name="job" />
+        <label for="Front-end">Front-End Developer</label>
+
+        <input id="Back-end" type="radio" value="Back-End" name="job" />
+        <label for="Back-end">Back-End Developer</label>
+
+        <input id="analyst" type="radio" value="business-analyst" name="job" />
+        <label for="analyst">Business Analyst</label>
+
+        <input
+          id="Manager"
+          type="radio"
+          value="Project-Manager"
+          name="job"
+          checked
+        />
+        <label for="Manager">Project Manager</label>
+
+        <input id="Master" type="radio" value="scrum-Master" name="job" />
+        <label for="Master">Scrum Master</label>
+      </div>
+      <br />
+      <input type="reset" value="Empty" />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
+
+
+ <!-- Assignment_03 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment_03</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <!-- 1st Field -->
+      <div>
+        <label>Token</label>
+        <input
+          type="text"
+          name="token"
+          value="b92f1fc2fce391ad7af633723afd3055"
+          hidden
+        />
+      </div>
+      <br />
+      <!-- 2nd Field -->
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" value="o@o.com" name="Email" readonly />
+      </div>
+      <br />
+      <!-- 3rd Field -->
+      <div>
+        <label for="user">Username</label>
+        <input
+          id="user"
+          type="text"
+          name="user"
+          autofocus
+          required
+          minlength="5"
+          maxlength="20"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label>Skills: </label>
+
+        <input id="solve" type="checkbox" value="CP" name="skill" checked />
+        <label for="solve">Problem solving</label>
+
+        <input id="Logic" type="checkbox" value="LT" name="skill" />
+        <label for="Logic">Logical Thinking</label>
+
+        <input id="search" type="checkbox" value="search" name="skill" />
+        <label for="search">Advanced Search</label>
+
+        <input id="analysis" type="checkbox" value="analysis" name="skill" />
+        <label for="analysis">Analysis</label>
+
+        <input id="plan" type="checkbox" value="planning" name="skill" />
+        <label for="plan">Planning</label>
+      </div>
+      <br />
+      <div>
+        <label>Job: </label>
+
+        <input id="Front-end" type="radio" value="Front-End" name="job" />
+        <label for="Front-end">Front-End Developer</label>
+
+        <input id="Back-end" type="radio" value="Back-End" name="job" />
+        <label for="Back-end">Back-End Developer</label>
+
+        <input id="analyst" type="radio" value="business-analyst" name="job" />
+        <label for="analyst">Business Analyst</label>
+
+        <input
+          id="Manager"
+          type="radio"
+          value="Project-Manager"
+          name="job"
+          checked
+        />
+        <label for="Manager">Project Manager</label>
+
+        <input id="Master" type="radio" value="scrum-Master" name="job" />
+        <label for="Master">Scrum Master</label>
+      </div>
+      <hr />
+      <div>
+        <label for="p.lang">Programming Language:</label>
+        <select id="p.lang" name="Programming-language" required>
+          <optgroup label="PHP">
+            <option value="v5.0">v5.0</option>
+            <option value="v7.0">v7.0</option>
+            <option value="v8.0">v8.0</option>
+          </optgroup>
+          <optgroup label="Python">
+            <option value="v2.0">v2.0</option>
+            <option value="v3.0">v3.0</option>
+            <option value="v3.9">v3.9</option>
+          </optgroup>
+        </select>
+      </div>
+      <hr />
+      <div>
+        <label for="brief">Brief:</label>
+        <br />
+        <div>
+          <textarea
+            id="brief"
+            name="brief"
+            cols="70"
+            rows="10"
+            required
+            placeholder="Write Here Why You Want To Learn Programming"
+          ></textarea>
+        </div>
+      </div>
+      <hr />
+      <input type="reset" value="Empty" />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!-- Assingmnet 1 -->
+[0] <!DOCTYPE html> 
+[1] Quirks Mode 
+[2] No 
+[3] No 
+[4] Headings
+
+<!-- Assignment 2 -->
+
+There is NO difference between values in these attributes ..
+
+NOTE: when you write value of an attribute you should make in double or single quote when the value is more than one word .. if the value one word you can write with NO quotes
+
+<!-- Assignment 3 -->
+
+ There is NO differences between two Elemnets, These elements will be hidden
+
+
+<!-- Assignment 4 -->
+
+ All the paragraph Elements has no differences between them even if there is many spaces between them
+
+<!-- Assignment 5 -->
+
+title    ==> <!--Global Attribute -->
+href     ==> <!--Element or local Attribute like <a href=""></a>, <link href=""/>-->
+src      ==> <!--Element or local Attribute <script></script>, <img src=""/> -->
+hidden   ==> <!--Global Attribute-->
+charset  ==> <!--Element Attribute <meta/>-->
+class    ==> <!--Global Attribute-->
+id       ==> <!--Global Attribute-->
+type     ==> <!--Global Attribute <input>-->
+
+
+<!-- Assignment 6 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <title>Amazon Book Store</title>
+      <meta name="description" content="We Have Big Sales on White Friday"/>
+  </head>
+  <body>
+    <h1>Amazon Book Store</h1>
+    <p>We have experience in selling books since 1990 and also we can refund book maximum 30 days</p>
+    <!--Part-One-->
+    <h2>History Books</h2>
+    <!--Start Products-->
+    <h3>Pyramids made by Egyptions</h3>
+    <p>this books talks about Bla Bla Bla...</p>
+    <hr />
+    <h3>World War 1</h3>
+    <p>description this books talks about before disaster...</p>
+    <hr />
+    <h3>Mein kampf كفاحي هتلر</h3>
+    <p>description this books talks about before Hitler..</p>
+    <!--End Products-->
+    <hr />
+    <!--Part-Two-->
+    <h2>Isalmic Books</h2>
+    <!--Start Products-->
+    <h3>Book-1</h3>
+    <p>Islamic book-1 Description</p>
+    <hr />
+    <h3>Book-2</h3>
+    <p>Islamic Book-2 Description</p>
+    <hr />
+    <h3>Book-3</h3>
+    <p>Islamic Book-3 Description</p>
+    <!--End Products-->
+  </body>
+<html>
+
+
+<!-- Assignment 7 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Page</title>
+  </head>
+  <body>
+    <h1>My Page</h1>
+    <p>This Is My Page</p>
+    <p>This Is My First Work</p>
+    <h2>Section One</h2>
+    <p>This Is Section One</p>
+  </body>
+</html>
+ 
+
+اللهم علمنا ما ينفعنا وانفعنا بما علمتنا انك انت العليم الحكيم

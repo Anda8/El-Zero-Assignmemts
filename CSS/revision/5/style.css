@@ -1,0 +1,13 @@
+.text{
+  margin: 10px auto;
+  width: fit-content;
+  background-color: #eee;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 20px;
+  background: linear-gradient(to bottom, #f02900, #bb9309);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

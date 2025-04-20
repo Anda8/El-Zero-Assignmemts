@@ -1,0 +1,35 @@
+.task4 {
+    background-color: #eee;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 1.5rem;
+    & .input-box {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      display: flex;
+      & .prefix,
+      & input {
+        padding: 10px;
+        font-size: 100%;
+        border: none;
+      }
+      & .prefix {
+        background-color: #009688;
+        color: #eee;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      & input {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        caret-color: #009688;
+  
+        &:focus {
+          outline: 0px solid #ddd;
+        }
+      }
+    }
+  }

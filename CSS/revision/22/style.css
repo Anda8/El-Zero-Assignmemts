@@ -1,0 +1,50 @@
+body{
+    background-color: #fff;
+    padding: 2rem;
+    & .container {
+      background-color: #eee;
+      padding: 2rem;
+      display: grid;
+      height: fit-content;
+      grid: repeat(3, 1fr) / repeat(4, 1fr);
+  
+      grid-template-areas:
+        "one two three three"
+        "one four five six"
+        "seven four eight eight";
+      gap: 2rem;
+      height: 1000px;
+      & div {
+        border-radius: 1rem;
+        &:nth-child(1) {
+          grid-area: one;
+        }
+        &:nth-child(2) {
+          grid-area: two;
+        }
+        &:nth-child(3) {
+          grid-area: three;
+        }
+        &:nth-child(4) {
+          grid-area: four;
+        }
+        &:nth-child(5) {
+          grid-area: five;
+        }
+        &:nth-child(6) {
+          grid-area: six;
+        }
+        &:nth-child(7) {
+          grid-area: seven;
+        }
+        &:nth-child(8) {
+          grid-area: eight;
+        }
+        & img {
+          width: 100%;
+          height: 100%;
+          border-radius: inherit;
+        }
+      }
+    }
+}

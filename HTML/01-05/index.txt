@@ -1,0 +1,56 @@
+ <!-- Assignment_01 -->
+
+ HTML = stands for HyperText Markup Language markup language is a system based on elements such as keywords, names and tags.
+
+
+ <!-- Assignment_02 -->
+
+ <!DOCTPYE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="This Is Description For My First Page" />
+    <meta name="author" content="Mustafa S. Ramadan" />
+    <title>My First Page</title>
+    <style></style>
+    <script></script>
+    <link rel="stylesheet" href=""/>
+  </head>
+  <body>
+    This Is My First Page
+  </body>
+</html>
+
+
+ <!-- Assignment_03 -->
+
+ [01] => No [02] => Yes [03] => No [04] => No
+
+
+  <!-- Assignment_04 -->
+
+<meta name="description" content="My first web page project(Description)" />
+<meta name="keywords" content="HTML, CSS, JavaScript" /><!-- for SEO -->
+<meta name="copyright" content="Your Company Or your Brand Name" />
+<meta name="author" content="Anda Beshr" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- for all media and phone, pc, laptop, and ipad -->
+
+_______________________________Model Answer_______________________
+<html> <!--Hypertext Markup Language-->
+  <head> <!--هذا الكود لا يظهر فى الصفحة بل يستخدم فلى تنظيم الصفحة من الخارج-->
+    <meta charset="UTF-8" /> <!--ترميز الموقع وهذا الترميز العلامى الذى يدعم كل اللغات و كل الأحرف-->
+    <title>My Frist Page</title> <!--عنوان الموقع-->
+    <meta name="description" content="This Is Description For My First Page" /> <!--هذا هو وصف الصفحة-->
+    <meta name="copyright" content="Your Company Or Brand Name" /> <!--هذا حقوق نشر وطبع الموقع-->
+    <meta name="author" content="Yousef" /> <!--هذا اسم مؤلف الموقع-->
+    <style></style> <!--CSS هذا هو الكود الخاص باستدعاء اوامر-->
+    <script></script> <!--Java Script هذا الكود الخاص باستدعاء اوامر -->
+    <link rel="" href="" /> <!--CSS هذا الكود خاص باستدعاءادوات -->
+  </head>
+  <body> <!--هذا الكود الخاص بكل شىء يظهر فى الموقع-->
+    This Is My First Page
+  </body>
+</html>
+
+اللهم علمنا ما ينفعنا وانفعنا بما علمتنا انك انت العليم الحكيم

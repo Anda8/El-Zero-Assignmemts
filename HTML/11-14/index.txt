@@ -1,0 +1,139 @@
+<!-- Assignment_1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CV Page</title>
+  </head>
+  <body>
+    <h1>My Info</h1>
+    <p>My Name Is: <b>Mustafa Ramadan</b></p>
+    <p>I am <strong>Available</strong> For Hire</p>
+    <p>
+      My Hour Old Price Is <del>$10</del> And The New Price Is <mark>$30</mark>
+    </p>
+    <p>
+      Visit My Website From This Link
+      <a href="#" target="_blank" title="Go To My Website">My Website</a>
+    </p>
+    <hr/>
+    <h2>Here Is Some Of My Clients</h2>
+    <img src="https://via.placeholder.com/50/F00/FFF" alt="red">
+    <img src="https://via.placeholder.com/50/00F/FFF" alt="blue">
+    <img src="https://via.placeholder.com/50/0F0/FFF" alt="green">
+    <hr/>
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>
+        JavaScript
+        <ul>
+          <li>Vuejs</li>
+          <li>Reactjs</li>
+          <li>Angular
+            <ol start="4">
+              <li>v4.0</li>
+              <li>v5.0</li>
+              <li>v6.0</li>
+              <li>v7.0</li>
+              <li>v8.0</li>
+            </ol>
+          </li>
+          <li>Svelte</li>
+        </ul>
+      </li>
+      <li>Python</li>
+    </ul>
+  </body>
+  </html>
+
+
+  <!-- Assignment_2 -->
+
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment_2</title>
+  </head>
+  <body>
+    <ul>
+      <li>
+        One
+        <ol type="A" start="3">
+          <li>C</li>
+          <li>D</li>
+          <li>E</li>
+        </ol>
+      </li>
+      <li>
+        Two
+        <ol type="I" start="3">
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ol>
+      </li>
+        <li>
+          Three
+          <ol type="a" start="4" reversed>
+            <li>d</li>
+            <li>c</li>
+            <li>b</li>
+          </ol>
+        </li>
+    </ul>
+  </body>
+</html>
+
+
+<!-- Assigment_3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_3</title>
+  </head>
+  <body>
+    <!-- HTML <a> Tag -->
+    <!-- Go to external link in new tap -->
+    <a href="https://google.com" target="_blank" title="Go to google">google search page</a>
+    <!-- Send Mail Using "mailto:o@gmail.com" -->
+    <a href="o@gmail.com" title="Mail Me">Contact Me</a>
+    <!-- Navigation In The Page -->
+    <a href="#id" title="Go To Paragraph">Main Paragraph</a>
+    <!-- Calling -->
+    <a href="tel:+2010345678911" title="Call Me">Call Me</a>
+  </body>
+</html>
+
+
+<!-- Assigment_4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_4</title>
+  </head>
+  <body>
+    <dl>
+      <dt>Learn Programming</dt>
+        <dd>Learn Computer Science</dd>
+        <dd>Learn Database</dd>
+      <dt>Design</dt>
+        <dd>Learn Graphics</dd>
+        <dd>Learn sketching</dd>
+    </dl>
+  </body>
+</html>
+
+اللهم علمنا ما ينفعنا وانفعنا بما علمتنا انك انت العليم الحكيم

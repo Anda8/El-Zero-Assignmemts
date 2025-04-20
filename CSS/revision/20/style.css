@@ -1,0 +1,75 @@
+body {
+  background-color: #eee;
+  padding: 2rem;
+    & .container {
+        background-color: #fff;
+        border-radius: 1rem;
+        padding: 2rem;
+        min-width: 200px;
+    
+        & div {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          & * {
+            padding: 0rem;
+          }
+          & h4 {
+            all: unset;
+            font-family: "Cairo", sans-serif;
+            font-size: 1.2rem;
+            color: #67777a;
+            text-transform: capitalize;
+          }
+          & span {
+            font-weight: bold;
+            font-size: 1.4rem;
+          }
+          & div {
+            height: 0.5rem;
+            width: 100%;
+            background-color: #eee;
+            position: relative;
+            --color: #0075fd;
+            --value: 80%;
+            & div {
+              width: var(--value);
+              height: 100%;
+              background-color: var(--color);
+              &::before {
+                content: attr(data-value);
+                position: absolute;
+                top: 0px;
+                left: 100%;
+                transform: translate(-50%, calc(-100% - 0.5rem));
+                background-color: var(--color);
+                color: #fff;
+                padding: 0.2rem;
+                border-radius: 0.5rem;
+              }
+              &::after {
+                content: "";
+                border: 0.5rem solid var(--color);
+                position: absolute;
+                top: 0px;
+                left: 100%;
+                transform: translate(-50%, calc(-100% + 0.5rem));
+                border-left-color: transparent;
+                border-right-color: transparent;
+                border-bottom-color: transparent;
+              }
+            }
+          }
+          &:nth-child(2) div div {
+            --color: #f59e0b;
+            --value: 55%;
+          }
+          &:nth-child(3) div div {
+            --color: #21c45b;
+            --value: 75%;
+          }
+        }
+      }
+}

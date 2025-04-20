@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & h1 {
+      all: unset;
+      text-transform: capitalize;
+      font: 3rem "Cairo", sans-serif;
+      font-weight: bold;
+      padding: 1.5rem;
+      background-color: #fff;
+      border-radius: 3rem;
+      position: relative;
+      border-left: 0.5rem solid #f44336;
+      border-right: 0.5rem solid #f44336;
+      border-bottom: 0.5rem solid #000;
+      box-shadow: 0 1.9rem 0 -1.1rem #f44336;
+      &::before,
+      &::after {
+        content: "";
+        width: 1.5rem;
+        aspect-ratio: 1/1;
+        background-color: inherit;
+        border-radius: 50%;
+        border: 0.5rem solid #f44336;
+        position: absolute;
+        top: 50%;
+      }
+      &::before {
+        left: 0px;
+        transform: translate(-100%, -50%);
+      }
+      &::after {
+        right: 0px;
+        transform: translate(100%, -50%);
+      }
+    }
+}
