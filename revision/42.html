@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ctrl+Alt+Shift Test</title>
+</head>
+<body>
+    <h1> press Ctrl + Alt + Shift</h1>
+    <script>
+        let isMessageShown = false;
+
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.altKey && event.shiftKey) {
+                if (!isMessageShown) {
+                    console.log("You Pressed Ctrl + Alt + Shift");
+                    isMessageShown = true;
+                }
+                event.preventDefault();
+                isMessageShown = false;
+            }
+        });
+    </script>
+</body>
+</html>
